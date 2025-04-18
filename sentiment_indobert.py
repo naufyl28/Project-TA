@@ -90,12 +90,10 @@ predictions = trainer.predict(test_data)
 y_pred = np.argmax(predictions.predictions, axis=1)
 y_true = predictions.label_ids
 
-# Simpan classification report ke file
 report = classification_report(y_true, y_pred, digits=4)
 print("=== Classification Report ===")
 print(report)
 
-# Simpan ke file .txt
 with open("output/classification_report.txt", "w", encoding="utf-8") as f:
     f.write("=== Classification Report ===\n")
     f.write(report)
