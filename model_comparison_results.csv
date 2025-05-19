@@ -1,0 +1,5 @@
+Metric,Dengan Lapisan Tersembunyi,Tanpa Lapisan Tersembunyi
+accuracy,0.858064516,0.867741935
+precision,0.857289799,0.867112668
+recall,0.858064516,0.867741935
+f1,0.856614348,0.866901004
