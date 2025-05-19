@@ -1,6 +1,0 @@
-transformers
-datasets
-scikit-learn
-pandas
-tqdm
-Sastrawi
